@@ -82,7 +82,7 @@ export default function Home() {
 							<div key={a.name} className="person">
 								<img src={a.img} alt="" />
 								<span className="name">{a.name}</span>
-								<span>{a.role}</span>
+								<span className="role">{a.role}</span>
 							</div>
 						);
 					})}
@@ -94,7 +94,7 @@ export default function Home() {
 							<div key={a.name} className="person">
 								<img src={a.img} alt="" />
 								<span className="name">{a.name}</span>
-								<span>{a.role}</span>
+								<span className="role">{a.role}</span>
 							</div>
 						);
 					})}

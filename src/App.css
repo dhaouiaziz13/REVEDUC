@@ -92,10 +92,10 @@
 	justify-content: center;
 	align-items: center;
 }
-.btn > span:hover{
-  background-color: #fff;
-  color: #125ffb;
-  cursor: pointer;
+.btn > span:hover {
+	background-color: #fff;
+	color: #125ffb;
+	cursor: pointer;
 }
 .social {
 	cursor: pointer;
@@ -110,13 +110,12 @@
 .info2 {
 	display: flex;
 	justify-content: space-between;
-  width: 100%;
+	width: 100%;
 }
 .credits {
 	cursor: pointer;
-  white-space: nowrap;
+	white-space: nowrap;
 	display: flex;
-
 	justify-content: space-around;
 	align-items: center;
 }
@@ -125,10 +124,10 @@
 	height: 2.5vh;
 	width: 2.5vh;
 }
-.credits>span{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.credits > span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .parag {
 	width: 70%;
@@ -187,7 +186,6 @@
 	display: none;
 }
 
-
 @media screen and (max-width: 1200px) {
 	.parag {
 		width: 80%;
@@ -197,9 +195,10 @@
 	}
 	.role {
 		font-size: 0.5cm;
+		white-space: nowrap;
 	}
 	.name {
-    white-space: nowrap;
+		white-space: nowrap;
 		font-size: 0.5cm;
 		font-family: "Poppins", sans-serif;
 		margin-bottom: 3%;
@@ -277,12 +276,12 @@
 	}
 }
 @media screen and (max-width: 600px) {
-  .commitee{
-    flex-wrap: wrap;
-    display: flex;
-    height: 50vh;
-  }
-
+	
+	.commitee {
+		flex-wrap: wrap;
+		display: flex;
+		height: 50vh;
+	}
 
 	.xtit {
 		color: grey;
