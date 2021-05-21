@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+	font-family: "Poppins", sans-serif;
+	height: 93.5vh;
+}
+.form {
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+	width: 50%;
+	height: 60%;
+	border: 1px solid blue;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.social {
+	width: 50%;
+	border-right: 1px solid blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social span {
+	font-size: 1cm;
+}
+.inps {
+	width: 50%;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.inps input {
+	width: 70%;
+	margin: 3% 0;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2.5px solid blue;
+}
+.inps input:focus {
+	border-bottom: 2.5px solid rgb(91, 208, 216);
+	transition-duration: 0.3s;
+}
+.submit {
+	cursor: pointer;
+	border: 1px solid blue;
+	width: 10vh;
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.submit:hover{
+    background-color: blue;
+    color: white;
+}
+.inps textarea{
+    margin: 5% 0;
+    resize: none;
+    height: 20vh;
+    width: 70%;
+}
+.links{
+  
+    width:52%;
+    display: flex;
+    justify-content: flex-end;
+    height: 5vh;
+}
+.links img {
+    margin:0 2%;
+    cursor:pointer
+}
+.withlove{
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+	.social span {
+		font-size: 0.5cm;
+	}
+	.form {
+		box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+		width: 90%;
+		height: 60%;
+		border: 1px solid blue;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.social {
+		width: 100%;
+		border-right: none;
+		border-bottom: 1px solid blue;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.inps {
+		width: 100%;
+		height: 90%;
+	/* border:1px solid red; */
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.inps input {
+		width: 70%;
+		margin: 3% 0;
+		border: none;
+		background-color: transparent;
+		border-bottom: 2.5px solid blue;
+	}
+	.inps input:focus {
+		border-bottom: 2.5px solid rgb(91, 208, 216);
+		transition-duration: 0.3s;
+	}
+	.submit {
+		cursor: pointer;
+		border: 1px solid blue;
+		width: 10vh;
+		height: 5vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		margin:1% 0
+	}
+	.submit:hover{
+		background-color: blue;
+		color: white;
+	}
+	.inps textarea{
+		margin: 0 0;
+		resize: none;
+		height: 20vh;
+		width: 70%;
+	}
+	.links{
+  
+		width:90%;
+		display: flex;
+		justify-content: flex-end;
+		height: 5vh;
+	}
+
+}

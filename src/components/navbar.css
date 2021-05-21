@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+.navbar{
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-item{
+    cursor: pointer;
+    transition-duration: 0.3;
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+}
+.nav-item:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.navs{
+    /* text-decoration: underline; */
+    color: rgb(53, 53, 53);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    font-weight: 500;
+    font-size: 0.5cm;
+}
+.logo{
+    font-size: 0.7cm;
+    margin-left: 1%;
+}
+.rev{
+    color: blue;
+
+}
+.educ{
+    color: grey;
+}
+@media screen and ( max-width:650px){
+    .navs{
+        width: 100%;
+     
+        font-size: 0.4cm;
+    }
+}
+@media screen and ( max-width:900px){
+    .navs{
+        width: 60%;
+     
+        font-size: 0.4cm;
+    }
+}
